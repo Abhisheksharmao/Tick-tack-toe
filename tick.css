@@ -1,0 +1,90 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: white;
+}
+
+.cnt {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    height: 70vh;
+}
+
+.game {
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: white;
+    margin: 5px;
+    color: black;
+    font-size: 50px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    gap: 10px;
+    border: none;
+}
+
+.reset {
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 40px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.reset:hover {
+    background: rgba(255, 0, 0, 0.522);
+    box-shadow: 5px 5px 10px white;
+}
+
+.msg {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#ms {
+    font-size: 50px;
+    color: seagreen;
+}
+
+.hide {
+    display: none;
+}
+
+#new {
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+#new:hover{
+background-color: rgba(0, 251, 255, 0.484);
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.re {
+    text-align: center;
+}
